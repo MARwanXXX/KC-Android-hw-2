@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c1cdd9"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="284dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="45dp"
+        android:background="@android:color/transparent"
+        android:text="Please fill up your information "
+        android:textAlignment="center"
+        android:textColor="#4b49c2"
+        android:textColorHighlight="#673AB7"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:inputType= "number"
+        android:ems="10"
+        android:hint="Age" />
+
+    <EditText
+        android:id="@+id/job"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Last Jop" />
+
+    <EditText
+        android:id="@+id/phoneNum"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Phone Number" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="287dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Email" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="177dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Next"
+        android:textSize="26sp"
+        app:cornerRadius="18dp" />
+
+</LinearLayout>
+
